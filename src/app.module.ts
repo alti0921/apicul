@@ -15,7 +15,7 @@ import { User } from './user/entities/user.entity';
     database: 'apicul',
     entities: [User],
     synchronize: true,
-  }), UserModule,
+  }), UserModule, 
 ],
   controllers: [AppController],
   providers: [AppService],
