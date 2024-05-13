@@ -16,8 +16,8 @@ import { User } from './user/entities/user.entity';
     entities: [User],
     synchronize: true,
   }), UserModule, 
-],
+], 
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule {} 
